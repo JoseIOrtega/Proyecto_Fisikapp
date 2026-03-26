@@ -7,3 +7,33 @@
     margin-bottom: 25px;
     text-shadow: 0.5px 0.5px 0.2px rgb(12, 12, 12);
 }
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenedor_Padre{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.contenedor_hijo{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 260px;
+}
+
+h2{
+    
+}
