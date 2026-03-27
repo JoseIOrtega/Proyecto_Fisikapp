@@ -10,9 +10,11 @@ function RestablecerContrasena() {
             <div className="Contenedor_Padre" id="contenedor_principal">
                 <div className="contenedor_hijo" id="contenedor_secundario">
                     <h2>Nueva contraseña:</h2>
-                    <input type="password" placeholder="Ingrese una Contraseña"></input>
+                    <input type="password" placeholder="Ingrese una contraseña"></input>
+                    <br />
                     <h2>Confirmar contraseña:</h2>
                     <input type="password" placeholder="Repita la contraseña"></input>
+                    <br />
                     <button className="botonGuardar">Guardar nueva contraseña</button>
                 </div>
             </div>

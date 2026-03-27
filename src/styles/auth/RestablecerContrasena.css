@@ -15,25 +15,40 @@
 }
 
 .Contenedor_Padre{
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
-    height: 300px;
+    height: 230px;
     border-radius: 20px;
+    background: linear-gradient(rgb(0, 255, 149), rgb(0, 217, 255));
 }
 
 .contenedor_hijo{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 460px;
-    height: 260px;
+    height: 205px;
 }
 
 h2{
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+input{
+    height: 30px;
+    font-family: sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.botonGuardar{
+    padding: 5px;
+    font-size: large;
+    border-radius: 20px;
+    background-color: #082764;
+    color: white;
+    font-weight: 500;
 }
